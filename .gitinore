@@ -1,0 +1,5 @@
+*/target/*
+*/.allure/
+/.allure/*
+*/test-output/*
+*/allure-results/*

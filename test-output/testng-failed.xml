@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Default]">
+  <parameter name="CustomOptions" value=""/>
+  <parameter name="ControllerType" value="com.br.inmetrics.frm.controllers.WebController"/>
+  <parameter name="Tags" value="@Edit"/>
+  <listeners>
+    <listener class-name="com.br.inmetrics.frm.testng.CustomListener"/>
+  </listeners>
+  <test thread-count="5" verbose="2" name="Feature: Settings(failed)">
+    <classes>
+      <class name="com.br.inmetrics.frm.testng.TestClassTemplate">
+        <parameter name="row" value=""/>
+        <parameter name="feature" value="Settings"/>
+        <parameter name="scenario" value="Mudar o nome de usuario"/>
+        <methods>
+          <include name="executeScenario"/>
+        </methods>
+      </class> <!-- com.br.inmetrics.frm.testng.TestClassTemplate -->
+    </classes>
+  </test> <!-- Feature: Settings(failed) -->
+</suite> <!-- Failed suite [Default] -->

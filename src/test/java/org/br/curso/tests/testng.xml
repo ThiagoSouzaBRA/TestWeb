@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Default" verbose="2">  
+  <parameter name="Tags" value="@Comentario"/>
+  <parameter name="ControllerType" value = "com.br.inmetrics.frm.controllers.WebController" />
+  <parameter name="CustomOptions" value = ""/>
+  <listeners>
+  	<listener class-name="com.br.inmetrics.frm.testng.CustomListener" />
+  </listeners>
+</suite>
